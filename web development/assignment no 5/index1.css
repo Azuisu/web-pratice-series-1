@@ -1,0 +1,51 @@
+/*unvisited link */
+a:link{
+color:red;}
+
+/*visited link*/
+a:visited{
+color:green;}
+
+/* mouse over link */
+a:hover{
+color:yellow;}
+
+/* selected link */
+a:active{
+color:blue;}
+
+.bordercss{
+width:500px;
+height:500px;
+background-color:blue;
+/*border-width:5px;
+border-color:black;
+border-style:solid; */
+border:5px solid red;
+border-radius:50px;
+}
+
+ul{list-style-type:square;}
+
+ol{list-style-type:lower-roman;}
+
+.boxmodel{
+	width: 400px;
+	height: 200px;
+	background-color:red;
+}
+input{
+	padding-left:20px;
+	padding-top:20px:
+	margin-top:50px;
+	margin-left:50p;
+}
+
+p{
+	width:500px;
+	height:300px;
+	border:1px solid red;
+	overflow:auto;
+
+
+}
